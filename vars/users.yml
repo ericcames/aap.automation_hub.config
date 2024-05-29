@@ -7,3 +7,11 @@ ah_users:
     is_superuser: true
     password: "{{ herc_passwd }}"
     state: present
+
+  - username: mlowcher
+    first_name: Mark
+    last_name: Lowcher
+    email: mlowcher@redhat.com
+    is_superuser: true
+    password: "{{ mark_passwd }}"
+    state: present
