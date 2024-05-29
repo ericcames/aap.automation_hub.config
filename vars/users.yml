@@ -5,5 +5,5 @@ ah_users:
     last_name: Ames
     email: ames@redhat.com
     is_superuser: true
-    password: "{{ herc_passwwd }}"
+    password: "{{ herc_passwd }}"
     state: present
