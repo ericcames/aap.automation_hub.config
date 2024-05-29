@@ -1,0 +1,9 @@
+---
+ah_users:
+  - username: hercules
+    first_name: Eric
+    last_name: Ames
+    email: ames@redhat.com
+    is_superuser: true
+    password: "{{ herc_passwwd }}"
+    state: present
