@@ -1,0 +1,7 @@
+---
+ah_ee_images:
+  - name: ansible-automation-platform-24/ee-supported-rhel8:latest
+    state: present
+    append: false
+    tags:
+      - latest
