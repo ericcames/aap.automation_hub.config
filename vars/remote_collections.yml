@@ -14,7 +14,7 @@ ah_collection_remotes:
       - name: netscaler.adc
 
   - name: validated
-    url: https://console.redhat.com/api/automation-hub/content/validated
+    url: https://console.redhat.com/api/automation-hub/
     token: "{{ red_hat_auto_hub_token }}"
     requirements:
       - name: infra.aap_utilities
