@@ -9,6 +9,9 @@ ah_collection_remotes:
       - name: ansible.controller
       - name: redhat.insights
       - name: redhat.rhel_system_roles
+      - name: ansible.windows
+      - name: microsoft.ad
+      - name: netscaler.adc
 
   - name: validated
     url: https://console.redhat.com/api/automation-hub/content/validated
