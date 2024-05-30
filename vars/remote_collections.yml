@@ -1,0 +1,9 @@
+---
+ah_collection_remotes:
+  - name: rh-certified
+    url: https://console.redhat.com/api/automation-hub/
+    username: "{{ redhat_username }}"
+    password: "{{ redhat_passwd }}"
+    requirements:
+      - name: servicenow.itsm
+      - name: amazon.aws
