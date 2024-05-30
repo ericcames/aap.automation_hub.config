@@ -3,3 +3,6 @@ ah_ee_registries:
   - name: red hat ecosystem catalog
     new_name: Red Hat Ecosystem Catalog
     url: https://registry.redhat.io
+    interval: 10
+    wait: true
+    timeout: 300
