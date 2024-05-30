@@ -1,37 +1,31 @@
 ---
-ah_group_roles:
-  - state: present
-    groups:
-      - Developers
-    role_list:
-      - roles:
-        - add_namespace
-        - change_namespace
-        - delete_namespace
-        - upload_to_namespace
-        - modify_ansible_repo_content
-        - delete_collection
-        - change_containernamespace_perms
-        - change_container
-        - change_image_tag
-        - create_container
-        - push_container
-        - delete_containerrepository
+ah_groups:
+  - name: Developers
+    state: present
+    # - roles:
+    #     - add_namespace
+    #     - change_namespace
+    #     - delete_namespace
+    #     - upload_to_namespace
+    #     - modify_ansible_repo_content
+    #     - delete_collection
+    #     - change_containernamespace_perms
+    #     - change_container
+    #     - change_image_tag
+    #     - create_container
+    #     - push_container
+    #     - delete_containerrepository
 
-  - state: present
-    groups:
-      - Image Managers
-    role_list:
-      - roles:
-        - change_container
-        - change_image_tag
-        - create_container
-        - push_container
-        - delete_containerrepository
+  - name: Image Managers
+    state: present
+      # - roles:
+      #   - change_container
+      #   - change_image_tag
+      #   - create_container
+      #   - push_container
+      #   - delete_containerrepository
 
-  - state: present
-    groups:
-        - Operations
-    role_list:
-      - roles:
-        - all
+  - name: Operations
+    state: present
+      # - roles:
+      #   - all
