@@ -23,7 +23,7 @@ ah_users:
     is_superuser: false
     password: "{{ dan_passwd }}"
     groups:
-      Developers
+      - Developers
     state: present
 
   - username: oscar
@@ -33,5 +33,5 @@ ah_users:
     is_superuser: false
     password: "{{ oscar_passwd }}"
     groups:
-      Operations
+      - perations
     state: present
