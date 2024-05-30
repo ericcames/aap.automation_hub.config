@@ -8,3 +8,4 @@ ah_collection_remotes:
       - name: servicenow.itsm
       - name: amazon.aws
       - name: ansible.posix
+      - name: ansible.controller
