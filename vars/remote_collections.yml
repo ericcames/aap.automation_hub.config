@@ -12,6 +12,38 @@ ah_collection_remotes:
       - name: redhat.insights
       - name: redhat.rhel_system_roles
 
+  - name: rh-certified
+    url: https://console.redhat.com/api/automation-hub/content/validated
+    token: "{{ red_hat_auto_hub_token }}"
+    requirements:
+      - name: infra.aap_utilities
+      - name: infra.ah_configuration
+      - name: infra.controller_configuration
+      - name: infra.ee_utilities
+      - name: infra.leapp
+      - name: infra.osbuild
+      - name: infra.lvm_snapshots
+      - name: infra.convert2rhel
+      - name: infra.middleware_ocpv
+      - name: infra.eda_configuration
+      - name: infra.ansible_rekey_variables
+      - name: network.acls
+      - name: network.ospf
+      - name: network.base
+      - name: network.vpn
+      - name: network.interfaces
+      - name: network.bgp
+      - name: network.telemetry
+      - name: network.backup
+      - name: edge.microshift
+      - name: cloud.aws_ops
+      - name: cloud.aws_troubleshooting
+      - name: cloud.gcp_ops
+      - name: cloud.vmware_ops
+      - name: cloud.azure_ops
+      - name: cloud.terraform_ops
+
+
   - name: community
     url: https://galaxy.ansible.com/api/
     requirements:

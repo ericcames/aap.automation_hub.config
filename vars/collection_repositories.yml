@@ -10,3 +10,14 @@ ah_collection_repositories:
     interval: 1.0
     timeout: 30
     state: present
+
+  - name: "validated"
+    description: "Red Hat validated content repository"
+    retain_repo_versions: 2
+    pulp_labels:
+      pipeline: "approved"
+    remote: validated
+    wait: false
+    interval: 1.0
+    timeout: 30
+    state: present
