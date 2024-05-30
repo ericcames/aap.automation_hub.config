@@ -10,7 +10,7 @@ ah_collection_remotes:
       - name: redhat.insights
       - name: redhat.rhel_system_roles
 
-  - name: rh-certified
+  - name: validated
     url: https://console.redhat.com/api/automation-hub/content/validated
     token: "{{ red_hat_auto_hub_token }}"
     requirements:
