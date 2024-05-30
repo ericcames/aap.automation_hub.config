@@ -10,3 +10,4 @@ ah_collection_remotes:
       - name: ansible.posix
       - name: ansible.controller
       - name: redhat.insights
+      - name: redhat.rhel_system_roles
