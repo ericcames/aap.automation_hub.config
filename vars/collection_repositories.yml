@@ -1,0 +1,8 @@
+---
+ah_collection_repositories:
+  - name: "rh-certified"
+    description: "Red Hat certified content repository"
+    retain_repo_versions: 2
+    pulp_labels:
+      pipeline: "approved"
+    remote: rh-certified
