@@ -17,21 +17,23 @@ ah_users:
     state: present
 
   - username: dan
+    groups:
+      - Developers
+    append: true
     first_name: Dan
     last_name: Geo
     email: dan@example.com
     is_superuser: false
     password: "{{ dan_passwd }}"
-    groups:
-      - Developers
     state: present
 
   - username: oscar
+    groups:
+      - Operations
+    append: true
     first_name: Oscar
     last_name: Mojo
     email: oscar@example.com
     is_superuser: false
     password: "{{ oscar_passwd }}"
-    groups:
-      - Operations
     state: present
