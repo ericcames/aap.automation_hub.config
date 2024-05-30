@@ -7,3 +7,4 @@ ah_collection_remotes:
     requirements:
       - name: servicenow.itsm
       - name: amazon.aws
+      - name: ansible.posix
