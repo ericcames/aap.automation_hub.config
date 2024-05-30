@@ -6,6 +6,7 @@ ah_collection_remotes:
     requirements:
       - name: servicenow.itsm
       - name: amazon.aws
+        version: 7.6.0
       - name: ansible.posix
       - name: ansible.controller
       - name: redhat.insights
