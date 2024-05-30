@@ -6,3 +6,7 @@ ah_collection_repositories:
     pulp_labels:
       pipeline: "approved"
     remote: rh-certified
+    wait: false
+    interval: 1.0
+    timeout: 30
+    state: present
