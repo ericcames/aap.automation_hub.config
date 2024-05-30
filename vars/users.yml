@@ -16,6 +16,14 @@ ah_users:
     password: "{{ mark_passwd }}"
     state: present
 
+  - username: worm
+    first_name: Greg
+    last_name: Wormmeester
+    email: gwormmee@redhat.com
+    is_superuser: true
+    password: "{{ worm_passwd }}"
+    state: present
+
   - username: dan
     groups:
       - Developers
