@@ -1,0 +1,9 @@
+---
+ah_group_roles:
+  - state: present
+    groups:
+      - Developers
+    role_list:
+      - roles:
+        - galaxy.user_admin
+        - galaxy.group_admin
