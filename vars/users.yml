@@ -33,5 +33,5 @@ ah_users:
     is_superuser: false
     password: "{{ oscar_passwd }}"
     groups:
-      - perations
+      - Operations
     state: present
