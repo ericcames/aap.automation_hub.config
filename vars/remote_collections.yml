@@ -11,3 +11,10 @@ ah_collection_remotes:
       - name: ansible.controller
       - name: redhat.insights
       - name: redhat.rhel_system_roles
+
+  - name: community
+    url: https://galaxy.ansible.com/api/
+    requirements:
+      - name: community.crypto
+      - name: community.aws
+      - name: community.general
