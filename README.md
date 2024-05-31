@@ -8,7 +8,7 @@
 - [aws_ansible_deployment_containerized gitrepo]( https://github.com/ericcames/aws_ansible_deployment_containerized "aws_ansible_deployment_containerized gitrepo")
 
 **Red Hat Communities of Practice Controller Configuration Collection**
-- [infra.controller_configuration Documentation]( https://console.redhat.com/ansible/automation-hub/repo/validated/infra/controller_configuration/docs/ "infra.controller_configuration Documentation")
+- [aap.controller.config CaC]( https://github.com/ericcames/aap.controller.config "aap.controller.config CaC")
 
 Example excerpt from inventory file:
 ===========
