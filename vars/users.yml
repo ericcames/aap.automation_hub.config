@@ -16,6 +16,22 @@ ah_users:
     password: "{{ mark_passwd }}"
     state: present
 
+  - username: zleblanc
+    first_name: Zach
+    last_name: Leblanc
+    email: zleblanc@redhat.com
+    is_superuser: true
+    password: "{{ mark_passwd }}"
+    state: present
+
+  - username: faith
+    first_name: Faith
+    last_name: Chua
+    email: fchua@redhat.com
+    is_superuser: true
+    password: "{{ mark_passwd }}"
+    state: present
+
   # - username: worm
   #   first_name: Greg
   #   last_name: Wormmeester
